@@ -42,6 +42,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 		entity1.setAddress(entity.getAddress());
 		entity1.setName(entity.getName());
 		entity1.setSalary(entity.getSalary());
+		entity1.setCompanyName(entity.getCompanyName());
 		repo.save(entity1);
 		return entity1;
 

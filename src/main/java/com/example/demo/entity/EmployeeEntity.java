@@ -23,5 +23,7 @@ public class EmployeeEntity {
 	private String address;
 	@Column(name = "EMP_SALARY")
 	private Double salary;
+	@Column(name = "COMPANY_NAME")
+	private String companyName;
 
 }
